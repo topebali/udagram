@@ -283,7 +283,7 @@ Resources:
       # ToDo: AMI ID of Ubuntu Linux machine. Too get one, try creating a VM from the web console. 
       ImageId: ami-052efd3df9dad4825
       # ToDo: Change the key-pair name, as applicable to you. 
-      KeyName: udagram_keypair
+      #KeyName: udagram_keypair
       IamInstanceProfile: !Ref ProfileWithRolesForOurApp
       SecurityGroups:
       - Ref: WebServerSecGroup
